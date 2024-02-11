@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="border-top pt-3 text-center">
+  <h2>You are logged Out</h2>
+
+  <small class="text-muted"
+    ><a class="btn btn-danger" href="{% url 'login' %}">Log In Again</a>
+  </small>
+</div>
+<!-- <form method="post" action="{% url 'logout' %}">
+  {% csrf_token %}
+  <button type="submit">logout</button>
+</form> -->
+{% endblock content %}

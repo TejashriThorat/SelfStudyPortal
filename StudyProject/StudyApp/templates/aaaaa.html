@@ -1,0 +1,30 @@
+ <!-- <a href="{% url 'update_homework' homework.id %}">
+                        <form method="post" action="{%url 'update_homework' homework.id%}">
+                            {%csrf_token%}
+                        <div class="form-check">
+                            {% if homework.is_finished == True %}
+                            <input class="form-check-input" type="checkbox" name="complete" value="" checked>
+                            <button type="submit">Save</button>
+                            {% else %}
+                            <input class="form-check-input" type="checkbox" name="Incomplete" value="">
+                            <button type="submit">Save</button>
+                            {% endif %}
+                            
+                            <label class="form-check-label text-light" for="flexCheckDefault">
+                                Mark as Completed
+                            </label> -->
+                            
+                       <!--      <a href="{% url 'update_homework' homework.id %}">
+                                <div class="form-check">
+                                    {% if homework.is_finished %}
+                                        <input class="form-check-input" type="checkbox" checked>
+                                    {% else %}
+                                        <input class="form-check-input" type="checkbox">
+                                    {% endif %}
+                                    <label class="form-check-label text-light" for="flexCheckDefault">
+                                        Mark as Completed
+                                    </label>
+                                </div>
+                            </a>
+                            
+                             -->
